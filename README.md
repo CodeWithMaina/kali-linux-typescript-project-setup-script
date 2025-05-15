@@ -17,9 +17,7 @@
 ## 📋 Table of Contents
 1. [✨ Key Features](#-key-features)
 2. [🚀 Installation](#-installation)
-   - [⚡ Direct Execution](#-direct-execution)
-   - [📥 Download First](#-download-first)
-   - [🛠 Manual Setup](#-manual-setup)
+   - [⚡ Clone Setup](#-clone-setup)
 3. [🏗 Project Structure](#-project-structure)
 4. [⚙️ Script Capabilities](#️-script-capabilities)
 5. [🛠 Troubleshooting](#-troubleshooting)
