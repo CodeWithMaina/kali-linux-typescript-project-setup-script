@@ -59,3 +59,14 @@ chmod +x setup-typescript-project.sh
 
 # 4. Run the setup script
 ./setup-typescript-project.sh
+
+MIT License © 2023 CodeWithMaina
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so...
+
+<div align="center"> <br> <img src="https://img.icons8.com/fluency/48/000000/console.png" width="20"/> <em>Happy coding from the Kali Linux community!</em> <img src="https://img.icons8.com/color/48/000000/linux.png" width="20"/> <br><br> <sub>Made with ❤️ by CodeWithMaina</sub> </div> ```
