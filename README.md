@@ -16,7 +16,7 @@
 
 ## 📋 Table of Contents
 1. [✨ Key Features](#-key-features)
-2. [🚀 Installation](#-installation)
+2. [🚀 Installation Guide](#-installation-guide)
    - [⚡ Clone Setup](#-clone-setup)
 3. [🏗 Project Structure](#-project-structure)
 4. [⚙️ Script Capabilities](#️-script-capabilities)
@@ -24,7 +24,11 @@
 6. [🤝 Contributing](#-contributing)
 7. [📜 License](#-license)
 
+---
+
 ## ✨ Key Features
+
+<div class="features-grid">
 
 | Feature | Description |
 |---------|-------------|
@@ -33,19 +37,29 @@
 | 🚢 **Production Ready** | Pre-configured build and start scripts |
 | 🧩 **Optimal Configs** | Strict TypeScript + perfect tsconfig.json |
 | 📦 **PNPM Power** | Faster, more efficient than npm/yarn |
+| 🛡️ **Kali Optimized** | Tested and verified for security environments |
 
-## 🚀 Installation
-Clone the repository
-Move the .sh file into the folder you wanna create your project in
-Make the script executable
-Finally, run the script
+</div>
 
+---
+
+## 🚀 Installation Guide
+
+### ⚡ Clone Setup Method
+
+```bash
+# 1. Clone the repository
 git clone https://github.com/CodeWithMaina/kali-linux-typescript-project-setup-script.git
+
+# 2. Move to your project directory
+cd path/to/your/project/folder
+
+# 3. Make the script executable
 chmod +x setup-typescript-project.sh
+
+# 4. Run the setup script
 ./setup-typescript-project.sh
 
-🏗 Project Structure
-tree
 my-project/
 ├── src/
 │   └── index.ts        → Main application entry
@@ -54,14 +68,10 @@ my-project/
 ├── package.json        → Project configuration
 └── tsconfig.json       → TypeScript settings
 
-⚙️ Script Capabilities
-The automation script handles:
-Environment Verification
-Checks for pnpm installation
-Validates system requirements
-Project Scaffolding![deepseek_mermaid_20250515_3219f4](https://github.com/user-attachments/assets/8eb436a5-ac37-4d43-8d7a-045daadb6422)
-
-📜 License
-
-MIT License © 2023 CodeWithMaina
-Permission is hereby granted... [full license]
+graph TD
+    A[Start] --> B[Create Project Directory]
+    B --> C[Initialize package.json]
+    C --> D[Install Dependencies]
+    D --> E[Configure TypeScript]
+    E --> F[Create Starter Files]
+    F --> G[Complete Setup]
