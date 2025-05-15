@@ -59,19 +59,3 @@ chmod +x setup-typescript-project.sh
 
 # 4. Run the setup script
 ./setup-typescript-project.sh
-
-my-project/
-├── src/
-│   └── index.ts        → Main application entry
-├── dist/               → Compiled output (auto-generated)
-├── node_modules/       → Dependencies (pnpm managed)
-├── package.json        → Project configuration
-└── tsconfig.json       → TypeScript settings
-
-graph TD
-    A[Start] --> B[Create Project Directory]
-    B --> C[Initialize package.json]
-    C --> D[Install Dependencies]
-    D --> E[Configure TypeScript]
-    E --> F[Create Starter Files]
-    F --> G[Complete Setup]
