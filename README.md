@@ -53,6 +53,8 @@ chmod +x setup.sh
 # Run setup
 ./setup.sh
 🛠 Manual Setup
+
+
 For restricted environments:
 
 bash
