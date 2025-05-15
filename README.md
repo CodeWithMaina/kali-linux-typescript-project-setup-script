@@ -37,39 +37,14 @@
 | 📦 **PNPM Power** | Faster, more efficient than npm/yarn |
 
 ## 🚀 Installation
+Clone the repository
+Move the .sh file into the folder you wanna create your project in
+Make the script executable
+Finally, run the script
 
-### ⚡ Direct Execution
-```bash
-curl -s https://raw.githubusercontent.com/CodeWithMaina/kali-linux-typescript-project-setup-script/main/setup.sh | bash
-
-📥 Download First
-bash
-# Download script
-wget https://raw.githubusercontent.com/CodeWithMaina/kali-linux-typescript-project-setup-script/main/setup.sh
-
-# Make executable
-chmod +x setup.sh
-
-# Run setup
-./setup.sh
-🛠 Manual Setup
-
-
-For restricted environments:
-
-bash
-# Create local bin directory
-mkdir -p ~/bin
-
-# Download script
-curl -o ~/bin/ts-init https://raw.githubusercontent.com/CodeWithMaina/kali-linux-typescript-project-setup-script/main/setup.sh
-
-# Set permissions
-chmod +x ~/bin/ts-init
-
-# Add to PATH
-echo 'export PATH="$HOME/bin:$PATH"' >> ~/.bashrc
-source ~/.bashrc
+git clone https://github.com/CodeWithMaina/kali-linux-typescript-project-setup-script.git
+chmod +x setup-typescript-project.sh
+./setup-typescript-project.sh
 
 🏗 Project Structure
 tree
